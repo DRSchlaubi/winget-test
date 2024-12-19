@@ -4,4 +4,4 @@ jobs:
   a:
     runs-on: windows-2025
     steps:
-      - run: winget install wingetcreate
+      - run: winget install wingetcreate -s winget
